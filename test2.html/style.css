@@ -16,32 +16,38 @@ div{
     margin-right:200px;
     margin-bottom: 100px;
     text-align: center;
+    
 }
 div:hover{
     border-radius: 20px;
     border: 1px solid white;
-    box-shadow: 3px 3px 30px 10px aqua;
+    box-shadow: 3px 3px 45px 10px aqua;
 }
 label{
     margin: 92px;
 }
 #a{
     margin: 60px;
+    width: 90px;
 
 }
 #b{
     margin: 10px;
-
+    
 
 }
 #c{
     margin: 7px;
 }
 #y{
-    margin-left: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 170px;
 }
 #z{
-    margin-left: 5px;
+    
+    width: 180px;
+    text-align: center;
 }
 input,select{
     color: white;
@@ -49,8 +55,9 @@ input,select{
     border-bottom: 1px solid white;
     border-radius: 10px;
     border-bottom-left-radius: 10px;
-    border-top-right-radius: 15px;
+    border-top-right-radius: 10px;
     margin-left:9px;
     outline: 0;
+    border: none;
 
 }
