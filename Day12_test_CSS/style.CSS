@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    color: white;
+}
+img{
+     height: 50px;
+     margin-left: 10px;
+     /* margin-bottom: 10px; */
+     /* width: 100px; */
+    /* border-radius: 20px; */
+   /* border: 5px solid black; */
+   
+}
+.youtube{
+    align-items: center;
+    justify-content: center; 
+      
+}
+.line{
+    border: 1px solid rgb(81, 69, 69);
+    width: 200px;
+}
+.item{
+    height: 30px;
+   padding: 10px;
+}
+.you .item{
+    
+    font-size: 1.5rem;
+   
+}
+.material-symbols-outlined{
+    margin-right: 15px;
+}
+.second {
+    border: 1px solid gray;
+    height: 30px;
+    width: 500px;
+    display: flex;
+    border-radius: 100px;
+   justify-content: center;
+   align-items: center;
+   margin-left: 300px;
+   /* margin-bottom: 5px; */
+   /* margin-top: 10px; */
+}
+.third{
+    display: flex;
+    margin-left: 250px;
+    gap: 25px;
+  padding: 25px ;
+    text-align: center;
+   
+   
+     
+}
+.child{
+    border: 1px solid gray;
+    height: 20px;
+    background-color:rgb(54, 53, 53);
+    width: 120px;
+    border-radius: 5px;
+   /* border-top: 10px; */
+}
+
+.shiv{
+  
+   
+    height: 200px;
+    width: 340px;
+
+}
+.shree{
+    display: flex;
+    margin-left: 250px;
+}
+.gap{
+    height: 30px;
+}
