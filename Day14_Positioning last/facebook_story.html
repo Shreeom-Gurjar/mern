@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        .parent{
+            position: relative;
+            /* background-color: yellow; */
+            width: 300px;
+        }
+        .parent img{
+            width: 250px;
+            height: 300px;
+            border-radius: 20px;
+            border: 2px solid white;
+        }
+        .child{
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+        }
+        .child img{
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            border: 3px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+       <img src="https://cdn.pixabay.com/photo/2016/11/06/23/51/buildings-1804479_640.jpg">
+       <div class="child">
+        <img src="https://cdn.pixabay.com/photo/2017/01/18/16/46/hong-kong-1990268_640.jpg">
+       </div>
+    </div>
+</body>
+</html>
