@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        .hed{
+            background-color:rgb(209, 47, 74);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .right{
+            display: flex;
+        }
+        .item{
+            padding: 20px;
+        }
+        .dropdown{
+            display: none;
+            position: absolute;
+            top: 59px;
+            background-color: rgb(16, 64, 159);
+            right: 11px;
+        }
+       .dropdown .drop{
+            padding: 20px;
+        }
+        #dp{
+            position: relative;
+        }
+        #dp:hover .dropdown{
+            display: block;
+        }
+        .drop:hover{
+            background-color: black;
+        }
+        .item:hover{
+           background-color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="hed">
+        <div class="left">Shriom</div>
+      
+      
+        <div class="right">
+            <div class="item" id="dp">Omgurjar
+                <div class="dropdown">
+                <div class="drop">def</div>
+                <div class="drop">ghi</div>
+                <div class="drop">jkl</div>
+                <div class="drop">mno</div>
+                </div>
+            </div>
+            <div class="item">chandan</div>
+            <div class="item">Aayush</div>
+            <div class="item">Shivam</div>
+        </div>
+    </div>
+</body>
+</html>

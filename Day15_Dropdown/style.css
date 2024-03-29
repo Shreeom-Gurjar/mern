@@ -25,11 +25,6 @@ body{
 }
 .dropdown{
     display: none;
-    /* position: absolute;
-    top: 50px;
-    background-color: aqua;
-    left: -8px; */
-   
 }
 .dropdown{
     position: absolute;
@@ -37,10 +32,8 @@ body{
     background-color: rgb(173, 181, 181);
      left: -8px; 
 }
-
 #dp:hover .dropdown{
 display: block;
-
 }
 #dp{
     position: relative;
