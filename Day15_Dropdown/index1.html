@@ -4,7 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Dropdown</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: black;
+        color: white;
+    }
+    .nav{
+        display: flex;
+         justify-content: space-between; 
+       background-color: brown;
+       align-items: center;
+    }
+    .left{
+        padding: 15px;
+    }
+    /* .left:hover{
+        background-color: rgb(93, 51, 51);
+        padding: 19px;
+    } */
+    .right{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+    }
+    .right .items{
+        padding: 20px;
+    }
+    .right .items:hover{
+        background-color: blue;
+    }
+    /* .dropdown{
+        display: none;
+    } */
+    .dropdown{
+        position: absolute;
+        top: 60px;
+        background-color: rgb(173, 181, 181);
+         left: -8px; 
+         display: none;
+    }
+    #dp:hover .dropdown{
+    display: block;
+    }
+    #dp{
+        position: relative;
+    }
+    .dropdown .dropdown_items{
+        padding: 15px;
+    }
+    .dropdown_items:hover{
+        background-color: black;
+    }
+    .items:nth-child(3):hover{
+        background-color:black;
+    }
+    </style>
 </head>
 <body>
     <div class="nav">

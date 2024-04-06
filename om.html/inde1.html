@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+.nav .items{
+    margin: 10px;
+    border-radius: 10px;
+}
+.nav .items input{
+    background-color: lightslategray;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 13px;
+    width: 50rem;
+}
+.nav .items{
+    display: flex;
+    align-items: center;
+}
+.nav .items span{
+    padding: 0px 15px 0px 20px;
+}
+#a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightslategray;
+    padding: 10px;
+    width: 14%;
+}
+#b{
+    background-color: lightslategray;
+    width: 68%;
+}
+#c{
+    background-color: lightslategray;
+    padding: 10px;
+    width: 14%;
+}
+.main{
+    display: flex;
+    gap: 20px;
+}
+.main .left{
+    background-color: lightslategray;
+    width: 14%;
+    height: 550px;
+    border-radius: 10px;
+    margin-left: 9px;
+    position: sticky;
+    top: 66px;
+}
+.main .mid{
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 4%;
+}
+.mid .post{
+    background-color: lightslategray;
+    border-radius: 10px;
+}
+.mid .post .head{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0px 0px 0px;
+    margin-left: 10px;
+}
+.mid .post .head .item{
+    margin-left: 10px;
+}
+.mid .post .head .item img{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 2px solid yellow;
+}
+.mid .post .head .item p{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#v{
+    display: flex;
+    align-items: center;
+    margin-left: 36rem;
+}
+#e{
+    font-size: 0.8rem;
+    margin-top: -0px;
+}
+#p{
+    margin-left: 0px;
+}
+.mid .post p{
+    /* margin-left: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    margin: 10px 20px;
+}
+.mid .post .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid .post .img img{
+    width: 95%;
+    height: 350px;
+    border-radius: 10px;
+    border: 2px solid aqua;
+}
+.mid .post .bottom{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.mid .post .bottom .itm{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.main .right{
+    margin-left: 4%;
+    background-color: lightslategray;
+    width: 13.5%;
+    height: 500px;
+    border-radius: 10px;
+    position:sticky;
+    top: 66px;
+
+}
+        </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="items" id="a">WDM
+            <span class="material-symbols-outlined">
+                switches
+            </span>
+        </div>
+        <div class="items" id="b">
+            <span class="material-symbols-outlined">
+                search
+            </span>
+            <input type="search" placeholder="Search...">
+            <span class="material-symbols-outlined" id="f">
+                filter_list
+            </span>
+        </div>
+        <div class="items" id="c">Become a Seller</div>
+    </div>
+    <div class="main">
+        <div class="left"></div>
+        <div class="mid">
+            <div class="post">
+                <div class="head">
+                    <div class="item">
+                        <img src="https://cdn.pixabay.com/photo/2024/01/17/12/06/car-8514314_640.png" alt="">
+                    </div>
+                    <div class="item" id="p">
+                        <p>City Light</p>
+                        <p id="e">amazing city</p>
+                    </div>
+                    <div class="item" id="v"><span class="material-symbols-outlined">
+                            more_vert
+                        </span></div>
+                </div>
+                <p> City is everything that provide everything that we need, city is over first monterh 77</p>
+                <div class="img">
+                    <img src="https://cdn.pixabay.com/photo/2024/02/22/15/18/clouds-8590310_640.jpg" alt="">
+                </div>
+                <div class="bottom">
+                    <div class="itm">
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>10.3k
+                    </div>
+                    <div class="itm">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                        </span>4.2k
+                    </div>
+                    <div class="itm">
+                        <span class="material-symbols-outlined">
+                            send
+                        </span>8.1k
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="head">
+                    <div class="item">
+                        <img src="https://cdn.pixabay.com/photo/2024/01/17/12/06/car-8514314_640.png" alt="">
+                    </div>
+                    <div class="item" id="p">
+                        <p>City Light</p>
+                        <p id="e">amazing city</p>
+                    </div>
+                    <div class="item" id="v"><span class="material-symbols-outlined">
+                            more_vert
+                        </span></div>
+                </div>
+                <p> City is everything that provide everything that we need, city is over first monterh 77</p>
+                <div class="img">
+                    <img src="https://cdn.pixabay.com/photo/2024/02/22/15/18/clouds-8590310_640.jpg" alt="">
+                </div>
+                <div class="bottom">
+                    <div class="itm">
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>10.3k
+                    </div>
+                    <div class="itm">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                        </span>4.2k
+                    </div>
+                    <div class="itm">
+                        <span class="material-symbols-outlined">
+                            send
+                        </span>8.1k
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <div class="post">
+                <div class="head">
+                    <div class="item">
+                        <img src="https://cdn.pixabay.com/photo/2024/01/17/12/06/car-8514314_640.png" alt="">
+                    </div>
+                    <div class="item" id="p">
+                        <p>City Light</p>
+                        <p id="e">amazing city</p>
+                    </div>
+                    <div class="item" id="v"><span class="material-symbols-outlined">
+                            more_vert
+                        </span></div>
+                </div>
+                <p> City is everything that provide everything that we need, city is over first monterh 77</p>
+                <div class="img">
+                    <img src="https://cdn.pixabay.com/photo/2024/02/22/15/18/clouds-8590310_640.jpg" alt="">
+                </div>
+                <div class="bottom">
+                    <div class="itm">
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>10.3k
+                    </div>
+                    <div class="itm">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                        </span>4.2k
+                    </div>
+                    <div class="itm">
+                        <span class="material-symbols-outlined">
+                            send
+                        </span>8.1k
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    <div class="right"></div>
+    </div>
+</body>
+
+</html>
