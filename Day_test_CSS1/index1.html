@@ -27,11 +27,6 @@
             justify-content: center;
             align-items: center;
         }
-        *{
-            margin: 0;
-            padding: 0;
-            
-        }
         .hed{
             border: 1px solid gray;
             height: 20px;
@@ -42,14 +37,14 @@
         .Nav{
             display: flex;
             border: 1px solid gray;
-            padding: 5px;
+            /* padding: 5px; */
             position: sticky;
         }
         .icon{
           
             margin-left: 100px;
         }
-       
+        
         .items{
             height: 50px;
              display: flex;
@@ -57,15 +52,17 @@
         }
        
      .left{
-        height: 100vh;
+       height: 100vh;
         width: 20%;
         background-color: rgb(179, 179, 169);
         position: sticky;
+        
      }
      .right{
-        height: 100vh;
+        height: 80vh;
         width: 20%;
         background-color:rgb(238, 231, 244);
+        position: sticky;
      }
      .middle{
         height: 100vh;
@@ -73,9 +70,10 @@
         width: calc(100% - 40%);
         overflow: scroll;
      } 
-     .middle.middle::-webkit-scrollbar{
+     .middle::-webkit-scrollbar{
         display: none;
      }
+    
      .img1{
       display: flex;
       position: relative;
@@ -126,9 +124,15 @@
        height: 40px;
        width: 200px;
      }
+    
+     /* .First::-webkit-scrollbar{
+        display: none;
+     } */
+    
     </style>
 </head>
 <body>
+    <div class="First">
     <div class="Nav">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzPEgHv0FNohcp-54l2Jut7KhLKC9BWMKVTxCWOv-LLQ&s" height="20px">
    
@@ -228,6 +232,7 @@
                 </span>Aayush Sharma</div>
           </div>
         </div>
+    </div>
     </div>
 </body>
 </html>
