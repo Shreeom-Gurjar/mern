@@ -14,9 +14,9 @@ console.log(`Modules of ${number1} and ${number2} = ${number1%number2}`);*/
 const number = "100"
 //== only check the variable value
 // === ckeck variable value and data tyle
-if(number==10){
-    console.log("This is number")
+if(number==100){
+    console.log("This is number");
 }
 else{
-   console.log("This is String")
+   console.log("This is String");
 }

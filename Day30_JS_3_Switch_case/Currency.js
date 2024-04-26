@@ -6,7 +6,7 @@ const euro = 88.89;
 const dinar =272.79;
 let userINR = prompt("Enter INR")
 
-let convert = prompt("INR to pound Enter .1 \n INR to doller Enter .2 \n INR to Japan yen Enter .3 \n euro to INR  Enter .4 \n dinar to INR Enter  ");
+let convert =  parseInt(prompt("INR to pound Enter .1 \n INR to doller Enter .2 \n INR to Japan yen Enter .3 \n euro to INR  Enter .4 \n dinar to INR Enter  "));
 let result;
 switch(convert){
     case 1:{
