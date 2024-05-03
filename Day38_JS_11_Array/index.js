@@ -41,3 +41,16 @@
 //
 // const number =[92222,143,43,3112,222,700,655,82,0]
 // console.log(number.sort((a,b)=>b-a))
+const arr =[10,20,30,40,23,0,34,55,3444,234,664,755,334,444]
+const target = 234
+let i=0
+while(i<arr.length){
+    if(arr[i]==target){
+        console.log("element found",i);
+        break;
+    }
+    i++
+}
+if(i==arr.length){
+    console.log("element not found")
+}
