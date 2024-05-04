@@ -17,7 +17,16 @@ return -1;
 
 //main function
 const arr =[10,20,30,500,600,750,1200,1900,2400,5000]
-let target = 750;
+let target = 20;
 const result = binarySearch(arr,target)
-// 
+let i=0
+ if(arr[i]==target){
+    console.log("element found",i);
+
+}
+i++
+
+if(i==arr.length){
+console.log("element not found")
+}
 console.log(result)

@@ -33,11 +33,12 @@ const products = [
 // }
 // for(let key in products){
 //          console.log(key,products[key])
-//     }
+//      }
+
 // for(let key of products){
 //          console.log(element)
 //     }
 // products.forEach((value,index)=>console.log(value,index))
-// for(let =0;i<products.length;i++){
+// for(let i=0;i<products.length;i++){
 //     console.log(products[i])
 // }

@@ -6,7 +6,7 @@
 //     }
 //     return temp;
 // }
-// console.log("originalslice slice " arr.slice(5,7))
+// // console.log("original  slice ", arr.slice(5,7))
 // console.log("apna slice ",mySlice(5,7))
 
 
@@ -19,7 +19,7 @@
 
 
 
-// array searching methods
+//array searching methods
 //indexoff
 // const phones = ["iphone","oneplus","realme","redmi","sony xperia","samsung"]
 // console.log(phones.indexOf("redmi"))
@@ -31,7 +31,7 @@
 
 //
 // const phones = ["iphone","oneplus","realme","sony xperia","samsung","redmi"]
-// console.log(phones.includes("vivo"))
+// console.log(phones.includes("redmi"))
 
 //
 // const phones = ["iphone","oneplus","realme","redmi","sony xperia","samsung","redmi","asus","blackberry"]
@@ -40,7 +40,10 @@
 
 //
 // const number =[92222,143,43,3112,222,700,655,82,0]
-// console.log(number.sort((a,b)=>b-a))
+// console.log(number.sort((a,b)=>a-b))
+
+
+
 const arr =[10,20,30,40,23,0,34,55,3444,234,664,755,334,444]
 const target = 234
 let i=0

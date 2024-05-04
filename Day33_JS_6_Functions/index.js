@@ -1,4 +1,4 @@
-//et a = 10
+//let a = 10
 //let b = 20
 //(10,20)(300,400)(10,1000)(90,540)
 /*console.log(`Sum of ${a} and ${b} = ${a+b}`);
@@ -22,7 +22,7 @@ console.log(`Sum os ${a} and ${b} = ${a+b}`);*/
 
 function sum(a,b){
     console.log(`Sum os ${a} and ${b} = ${a+b}`); 
-    alert(`sum of${a} and ${b} = $ ${a+b}`);
+    alert(`sum of ${a} and ${b} = $ ${a+b}`);
 }
 function sub(a,b){
     console.log(`Sum os ${a} and ${b} = ${a-b}`); 
@@ -59,9 +59,9 @@ let userinput1 = parseInt(prompt("Enter first number"))
 let userinput2 = parseInt(prompt("Enter secound number"))
 switch(userchoice){
     case 1:
-        sum(userinput1,userinput2)
-        break;
-        case 2: sub(userinput1,userinput2)
+     sum(userinput1,userinput2)
+     break;
+     case 2: sub(userinput1,userinput2)
      break;
      case 3: mul(userinput1,userinput2)
      break;

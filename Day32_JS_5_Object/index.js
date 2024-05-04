@@ -5,7 +5,7 @@
     age:350,
     salary:5,
     panCard:'Qweinnddfjkm',
-    pincode:3456672
+    pincode:3456672,
 
 }
 const person2={ ...person1,

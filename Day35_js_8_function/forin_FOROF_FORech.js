@@ -18,5 +18,5 @@
 // for(let element of arr){
 //     console.log(element)
 // }
-arr.forEach((value,index) =>console.log(index,value+20))
+arr.forEach((value,index) => console.log(index,value+20))
 
