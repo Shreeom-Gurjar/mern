@@ -37,7 +37,6 @@ function mul(a,b){
 function division(a,b){
     console.log(`Sum os ${a} and ${b} = ${a/b}`); 
     alert(`sum of${a} and ${b} = $ ${a+b}`);
-
 }
 let userchoice = 2
 let userinput1 = 10

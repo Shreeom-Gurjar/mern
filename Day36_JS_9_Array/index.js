@@ -12,13 +12,21 @@
 // console.log(movies[i].title)
 // i++
 // }
+
+
 // for(let key in movies){
 //     console.log(key,movies[key])
 // }
+
+
 // for(let key of movies){
 //     console.log(element)
 // }
+
+
 // movies.forEach((value,index)=>console.log(value,index))
+
+
 const products = [
     {title:'iphone',price:'90000',color:'black'}
     {title:'mi',price:'11000',color:'white'}

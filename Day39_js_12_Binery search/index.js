@@ -17,7 +17,7 @@ return -1;
 
 //main function
 const arr =[10,20,30,500,600,750,1200,1900,2400,5000]
-let target = 20;
+let target = 2400;
 const result = binarySearch(arr,target)
 let i=0
  if(arr[i]==target){

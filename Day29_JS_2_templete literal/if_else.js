@@ -27,15 +27,15 @@ if(p+c+m+cs+eng > result){
 else{
     console.log("you are not elisible")
 }*/
-const a =sunday
-const b = monday
-const c = tuesday
+const a =sunday;
+const b = monday;
+const c = tuesday;
 if( a == wednuesday){
     console.log("not same")
 }
-else if(a == monday ){
+else if(b == monday ){
  console.log("not same")
 }
-else if(a == sunday){
+else if(c == sunday){
     console.log("same")
 }

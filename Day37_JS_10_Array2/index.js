@@ -41,24 +41,24 @@ const arr =[10,20,30,40,50,'superman','spiderman',20.99,false]
 // console.log('resulted array =' ,result)
 
 
-const salary = [
-    {emp:1,salary:100,name:'superman'},
-    {emp:2,salary:200,name:'spiderman'},
-    {emp:3,salary:301,name:'batman'},
-    {emp:4,salary:403,name:'thor'},
-    {emp:5,salary:500,name:'captain'},
-    {emp:6,salary:600,name:'plyer'},
-    {emp:7,salary:704,name:'ironman'},
-    {emp:8,salary:800,name:'tokyo'},
-    {emp:9,salary:900,name:'professor'},
-];
-let evenSalaryEmp = []
-for(let element of salary){
-    if(element.salary %2 ==0){
-     evenSalaryEmp.push(element)
-}
-}
-console.log("evenSalary array",evenSalaryEmp)
+// const salary = [
+//     {emp:1,salary:100,name:'superman'},
+//     {emp:2,salary:200,name:'spiderman'},
+//     {emp:3,salary:301,name:'batman'},
+//     {emp:4,salary:403,name:'thor'},
+//     {emp:5,salary:500,name:'captain'},
+//     {emp:6,salary:600,name:'plyer'},
+//     {emp:7,salary:704,name:'ironman'},
+//     {emp:8,salary:800,name:'tokyo'},
+//     {emp:9,salary:900,name:'professor'},
+// ];
+// let evenSalaryEmp = []
+// for(let element of salary){
+//     if(element.salary %2 ==0){
+//      evenSalaryEmp.push(element)
+// }
+// }
+// console.log("evenSalary array",evenSalaryEmp)
 
 
 // if(Element.SALARY> 300 && ELEMENT .SALARY <750)
