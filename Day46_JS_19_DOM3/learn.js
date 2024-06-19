@@ -7,7 +7,7 @@ const off = () =>{
     body.style.backgroundColor = ("black");
     body.style.color = ("pink");
 };
-// on()
+//on()
 // off()
 const changeImg = () => {
     const img = document.querySelector("img")

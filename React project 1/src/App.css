@@ -1,0 +1,10 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin:  auto;
+    height: 72px;
+}
+nav ul {
+    
+}

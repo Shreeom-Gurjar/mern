@@ -6,11 +6,11 @@ const image = [
     "https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&h=350",
     "https://images.pexels.com/photos/2092828/pexels-photo-2092828.jpeg?auto=compress&cs=tinysrgb&h=350",
   ];
-  
+
   const img = document.querySelector("img");
   
   let index = 0;
-  
+
   img.src = image[index];
   
   const increaseIndex = () => {
