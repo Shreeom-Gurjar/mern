@@ -1,6 +1,8 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom";
+import { arr } from "../data";
 const Product = () => {
+  const navigate = useNavigate;
   const arr = [
     {
       id: 1,
@@ -29,9 +31,12 @@ const Product = () => {
         margin: "auto",
       }}
     >
+      <button onClick={() => navigate("/career")}>
+        Navigate to Career Page
+      </button>
       {arr.map((data) => (
-        <Link to = {`/product/${data.id}`}
-        
+        <Link
+          to={`/product/${data.id}`}
           key={data.id}
           style={{ backgroundColor: "green", margin: "10px", padding: "10px" }}
         >
@@ -44,9 +49,9 @@ const Product = () => {
               borderRadius: "10px",
             }}
           />
+
           <h1>{data.title}</h1>
-          </Link>
-        
+        </Link>
       ))}
     </div>
   );

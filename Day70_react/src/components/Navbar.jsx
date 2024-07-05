@@ -1,9 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  // console.log("this is lacation wala hook",useLocation())
+const location = useLocation();
+
   return (
     <div>
+      {location.pathname != "/contact" &&(
       <div className="nav_bar">
         <Link to={"/"} className="left">
           WDM
@@ -23,6 +27,7 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
+      )}
     </div>
   );
 };
